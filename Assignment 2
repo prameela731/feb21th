@@ -1,0 +1,23 @@
+n=int(input('enter number'))
+for i in range(1,n):
+    for j in range(n,i,-1):
+        print("*",end=" ")
+    print("\n")
+enter number
+7
+* * * * * * 
+
+* * * * * 
+
+* * * * 
+
+* * * 
+
+* * 
+
+* 
+
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
